@@ -4,6 +4,8 @@ import nqueen from '../../assets/nqueen1.png';
 import hipsster from '../../assets/hipsster.png';
 import fitLift from '../../assets/fitlift.png';
 import ProjectCard from '../../common/ProjectCard';
+import astar from '../../assets/A*.png';
+import dijsktra from '../../assets/Dijsktra.png';
 
 function Projects() {
   return (
@@ -21,7 +23,18 @@ function Projects() {
           link="https://github.com/SaatvikSS/N-Queen-Visualizer"
           h3="N Queen"
           p="N Queen Visualizer"
-
+        />
+        <ProjectCard
+          src={astar}
+          link="https://github.com/SaatvikSS/A-Algorithm"
+          h3="A* Algorithm"
+          p="A* Search Algorithm"
+        />
+        <ProjectCard
+          src={dijsktra}
+          link="https://github.com/SaatvikSS/Dijkstra-algorithm"
+          h3="Dijsktra Algorithm"
+          p="Dijsktra Search Algorithm"
         />
       </div>
     </section>
