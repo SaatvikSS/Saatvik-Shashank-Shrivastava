@@ -6,7 +6,7 @@ import fitLift from '../../assets/fitlift.png';
 import ProjectCard from '../../common/ProjectCard';
 import astar from '../../assets/A*.png';
 import dijsktra from '../../assets/Dijsktra.png';
-import chatbot from '../../assets/chatbot.jpg';
+import chatbot from '../../assets/chatbot.png';
 
 function Projects() {
   return (
