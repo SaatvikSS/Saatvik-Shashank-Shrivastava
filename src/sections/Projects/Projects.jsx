@@ -6,6 +6,7 @@ import fitLift from '../../assets/fitlift.png';
 import ProjectCard from '../../common/ProjectCard';
 import astar from '../../assets/A*.png';
 import dijsktra from '../../assets/Dijsktra.png';
+import chatbot from '../../assets/chatbot.jpg';
 
 function Projects() {
   return (
@@ -35,6 +36,12 @@ function Projects() {
           link="https://github.com/SaatvikSS/Dijkstra-algorithm"
           h3="Dijsktra Algorithm"
           p="Dijsktra Search Algorithm"
+        />
+        <ProjectCard
+          src={chatbot}
+          link="https://github.com/SaatvikSS/ChatBot-using-Gemini-API"
+          h3="ChatBot"
+          p="ChatBot using Gemini API"
         />
       </div>
     </section>
