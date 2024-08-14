@@ -7,6 +7,7 @@ import ProjectCard from '../../common/ProjectCard';
 import astar from '../../assets/A*.png';
 import dijsktra from '../../assets/Dijsktra.png';
 import chatbot from '../../assets/chatbot.png';
+import drug from '../../assets/drug.png';
 
 function Projects() {
   return (
@@ -42,6 +43,12 @@ function Projects() {
           link="https://github.com/SaatvikSS/ChatBot-using-Gemini-API"
           h3="ChatBot"
           p="ChatBot using Gemini API"
+        />
+        <ProjectCard
+          src={drug}
+          link="https://github.com/SaatvikSS/Drug_Repurposing_Using_KGE"
+          h3="Drug Repurposing"
+          p="Drug Repurposing Using KGE Graphs"
         />
       </div>
     </section>
