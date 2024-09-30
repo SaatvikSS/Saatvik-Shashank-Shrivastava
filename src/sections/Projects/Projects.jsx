@@ -50,12 +50,6 @@ function Projects() {
           h3="Drug Repurposing"
           p="Drug Repurposing Using KGE Graphs"
         />
-        <ProjectCard
-          src={drug}
-          link="https://github.com/SaatvikSS/Drug_Repurposing_Using_KGE"
-          h3="Solar Sync"
-          p="Solar Sync App"
-        />
       </div>
     </section>
   );
