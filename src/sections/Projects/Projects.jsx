@@ -8,6 +8,7 @@ import astar from '../../assets/A*.png';
 import dijsktra from '../../assets/Dijsktra.png';
 import chatbot from '../../assets/chatbot.png';
 import drug from '../../assets/drug.png';
+import solar from '../../assets/solarsync.png';
 
 function Projects() {
   return (
@@ -51,7 +52,7 @@ function Projects() {
           p="Drug Repurposing Using KGE Graphs"
         />
         <ProjectCard
-          src={drug}
+          src={solar}
           h3="Solar Sync"
           p="Solar Sync App"
         />
