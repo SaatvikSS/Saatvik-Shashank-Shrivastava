@@ -9,6 +9,7 @@ import dijsktra from '../../assets/Dijsktra.png';
 import chatbot from '../../assets/chatbot.png';
 import drug from '../../assets/drug.png';
 import solar from '../../assets/solarsync.png';
+import nutriscan from '../../assets/7da138d4-58b2-46af-9b27-b0b242da735c.png';
 
 function Projects() {
   return (
@@ -55,6 +56,12 @@ function Projects() {
           src={solar}
           h3="Solar Sync"
           p="Solar Sync App"
+        />
+        <ProjectCard
+          src={nutriscan}
+          link="https://github.com/SaatvikSS/NutriScan"
+          h3="NutriScan"
+          p="NutriScan helps users make healthier food choices by scanning barcodes to provide a health rating and detailed ingredient analysis."
         />
       </div>
     </section>
