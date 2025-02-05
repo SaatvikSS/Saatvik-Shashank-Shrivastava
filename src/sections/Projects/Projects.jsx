@@ -61,7 +61,7 @@ function Projects() {
           src={nutriscan}
           link="https://github.com/SaatvikSS/NutriScan"
           h3="NutriScan"
-          p="NutriScan helps users make healthier food choices by scanning barcodes to provide a health rating and detailed ingredient analysis."
+          p="Scan for a healthy life."
         />
       </div>
     </section>
